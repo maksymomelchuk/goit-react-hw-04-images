@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Searchbar } from './Searchbar/Searchbar';
-import { Api } from './API/Api';
+import { Api } from '../services/api';
 import { Gallery } from './Gallery/Gallery';
 import { Button } from './Button/Button';
 import { Loader } from './Loader/Loader';
