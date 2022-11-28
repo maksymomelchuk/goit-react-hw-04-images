@@ -10,8 +10,3 @@ const Api = async (value, page) => {
 };
 
 export { Api };
-
-Api.propTypes = {
-  value: PropTypes.string.isRequired,
-  page: PropTypes.number.isRequired,
-};
